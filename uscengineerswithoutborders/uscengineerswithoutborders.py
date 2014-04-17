@@ -12,6 +12,20 @@ JINJA_ENVIRONMENT = jinja2.Environment(
     extensions=['jinja2.ext.autoescape'],
     autoescape=True)
 
+class MainPage
+
+class ContactPage
+
+class LocalPage
+
+class MediaPage
+
+class NewsPage
+
+class ProjectsPage
+
+class SupportPage
+
 application = webapp2.WSGIApplication([
     ('/', MainPage),
     ('/contact', ContactPage),
