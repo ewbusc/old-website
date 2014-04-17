@@ -1,4 +1,4 @@
-application: devschealthatlas
+application: uscengineerswithoutborders
 version: 1
 runtime: python27
 api_version: 1
@@ -9,7 +9,7 @@ handlers:
   static_dir: assets
 
 - url: /.*
-  script: devschealthatlas.application
+  script: uscengineerswithoutborders.application
 
 libraries:
 - name: webapp2
