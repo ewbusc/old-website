@@ -22,37 +22,37 @@ class MainPage
 class ContactPage
 
     def get(self):
-        template = JINJA_ENVIRONMENT.get_template('index.html')
+        template = JINJA_ENVIRONMENT.get_template('contact.html')
         self.response.write(template.render({}))
 
 class LocalPage
 
     def get(self):
-        template = JINJA_ENVIRONMENT.get_template('index.html')
+        template = JINJA_ENVIRONMENT.get_template('local.html')
         self.response.write(template.render({}))
 
 class MediaPage
 
     def get(self):
-        template = JINJA_ENVIRONMENT.get_template('index.html')
+        template = JINJA_ENVIRONMENT.get_template('media.html')
         self.response.write(template.render({}))
 
 class NewsPage
 
     def get(self):
-        template = JINJA_ENVIRONMENT.get_template('index.html')
+        template = JINJA_ENVIRONMENT.get_template('news.html')
         self.response.write(template.render({}))
 
 class ProjectsPage
 
     def get(self):
-        template = JINJA_ENVIRONMENT.get_template('index.html')
+        template = JINJA_ENVIRONMENT.get_template('projects.html')
         self.response.write(template.render({}))
 
 class SupportPage
 
     def get(self):
-        template = JINJA_ENVIRONMENT.get_template('index.html')
+        template = JINJA_ENVIRONMENT.get_template('support.html')
         self.response.write(template.render({}))
 
 application = webapp2.WSGIApplication([
